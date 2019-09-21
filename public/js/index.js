@@ -1,5 +1,8 @@
-
+const clicky = $("#btnTest");
 
 function textTest() {
-    document.getElementById("test").innerHTML = "Please work";
+    console.log("Hello")
 };
+
+// DOM EVENTS
+$(clicky).on("click", textTest);
