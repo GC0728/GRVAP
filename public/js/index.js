@@ -1,8 +1,11 @@
-const clicky = $("#btnTest");
+const podcasts = require("../data/index");
+
+const btnClick = $("#btnTest");
 
 function textTest() {
-    console.log("Hello")
+    $("#dynamicTest").text("This btnClick works!")
+    console.log(podcasts);
 };
 
 // DOM EVENTS
-$(clicky).on("click", textTest);
+$(btnClick).on("click", textTest);
