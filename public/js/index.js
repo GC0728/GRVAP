@@ -1,11 +1,11 @@
-const podcasts = require("../data/index");
+// const podcasts = require("../data/index");
 
-const btnClick = $("#btnTest");
+const btnClick = $("#header");
 
-function textTest() {
-    $("#dynamicTest").text("This btnClick works!")
-    console.log(podcasts);
+function consoleTest(event) { 
+    event.preventDefault();
+    console.log("This console button test works!");
 };
 
 // DOM EVENTS
-$(btnClick).on("click", textTest);
+$(btnClick).on("click", consoleTest);
