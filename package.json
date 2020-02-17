@@ -1,5 +1,5 @@
 {
-  "name": "grp",
+  "name": "grvap",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GC0728/GRP.git"
+    "url": "git+https://github.com/GC0728/GRVAP.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GC0728/GRP/issues"
+    "url": "https://github.com/GC0728/GRVAP/issues"
   },
-  "homepage": "https://github.com/GC0728/GRP#readme",
+  "homepage": "https://github.com/GC0728/GRVAP#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "concurrently": "^4.1.2",
