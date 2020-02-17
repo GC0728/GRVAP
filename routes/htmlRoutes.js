@@ -10,7 +10,7 @@ module.exports = function(app) {
     });
 
     app.get("/contact", function(req, res) {
-        res.sendFile(path.join(__dirname, '../pubic/views/contact.html'));
+        res.sendFile(path.join(__dirname, '../public/views/contact.html'));
     });
 
 
