@@ -72,6 +72,10 @@ body {
     width: 100%;
 }
 
+#contactForm form input {
+    margin-bottom: 10px;
+}
+
 #contactForm form input[type="submit"] {
     background-color: #43D1AF;
     box-sizing: border-box;
