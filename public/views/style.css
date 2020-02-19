@@ -1,3 +1,6 @@
+/* Imports */
+
+
 a:link{
     color: white;
     text-decoration: none;
@@ -27,14 +30,6 @@ body {
     grid-area: 2 / 3 / span 2 / span 1;
 }
 
-#contact{
-    background-color: #eaeaea;
-    margin: auto;
-    max-width: 50%;
-    padding: 20px 10px;
-
-}
-
 #contact legend {
     background-color: #eaeaea;
     margin-bottom: 10px;
@@ -45,8 +40,43 @@ body {
     margin-bottom: 10px;
 }
 
-#contact textarea {
+#contactForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 33.33%;
+    padding: 20px 10px;
+
+}
+
+#contactForm form {
+    border: 6px solid #305A72;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px grey;
+}
+
+#contactForm form h1 {
+    background-color: #43D1AF;
+    font-family: 'Bitter', serif;
     margin-bottom: 10px;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#contactForm form textarea {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#contactForm form input[type="submit"] {
+    background-color: #43D1AF;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
 }
 
 #container {
@@ -70,25 +100,12 @@ body {
     width: 40%;
 } */
 
-/* div {
-    display: block;
-} */
+div h1 {
+    margin-bottom: 0;
+}
 
-#header {
-    /* background-image: url(https://dq1eylutsoz4u.cloudfront.net/2018/07/27132717/polyamorous-dating.jpg); */
-    background-color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    display: flex;
-    grid-area: 1 / 1 / span 1 / span 3;
-    justify-content: center;
-    opacity: 0.9;
-
-} 
-
-input::placeholder{
-    color:#f00;
+div form {
+    background-color: #eaeaea;
 }
 
 .episodeList {
@@ -119,8 +136,25 @@ input::placeholder{
     justify-content: center;
 }
 
+#header {
+    /* background-image: url(https://dq1eylutsoz4u.cloudfront.net/2018/07/27132717/polyamorous-dating.jpg); */
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    display: flex;
+    grid-area: 1 / 1 / span 1 / span 3;
+    justify-content: center;
+    opacity: 0.9;
+
+} 
+
 #icon {
     border-style: solid;
+}
+
+input::placeholder{
+    color:#f00;
 }
 
 /* .logo {
