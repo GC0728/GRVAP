@@ -79,6 +79,9 @@ body {
 #contactForm form input[type="submit"] {
     background-color: #43D1AF;
     box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    margin-bottom: 0;
     padding: 10px;
     width: 100%;
 }
